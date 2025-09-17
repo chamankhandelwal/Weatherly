@@ -26,7 +26,7 @@ export default function InfoBox({wInfo}){
           {wInfo.city}
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-         <p><b>Temperature:&nbsp;{wInfo.temp}&deg;C</b></p>
+         <p id='temp'>Temperature:&nbsp;{wInfo.temp}&deg;C</p>
          <p>Weather:&nbsp;{wInfo.weather}</p>
          <p>Feels Like:&nbsp;{wInfo.feelsLike}&deg;C</p>
          <p>Minimun Temp:&nbsp;{wInfo.minTemp}&deg;C</p>

@@ -1,7 +1,13 @@
 .InfoBox{
     text-align: center;
+    color: black;
 }
 .card-continer{
     display: flex;
     justify-content: center;
+}
+#temp{
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
