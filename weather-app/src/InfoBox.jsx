@@ -26,12 +26,12 @@ export default function InfoBox({wInfo}){
           {wInfo.city}
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-         <p>Temperature:&nbsp;{wInfo.temp}&deg;C</p>
+         <p><b>Temperature:&nbsp;{wInfo.temp}&deg;C</b></p>
          <p>Weather:&nbsp;{wInfo.weather}</p>
          <p>Feels Like:&nbsp;{wInfo.feelsLike}&deg;C</p>
          <p>Minimun Temp:&nbsp;{wInfo.minTemp}&deg;C</p>
          <p>Maximun Temp:&nbsp;{wInfo.maxTemp}&deg;C</p>
-         <p>Humidity:&nbsp;{wInfo.humidity}</p>
+         <p><i>Humidity:&nbsp;{wInfo.humidity}</i></p>
          
         </Typography>
       </CardContent>

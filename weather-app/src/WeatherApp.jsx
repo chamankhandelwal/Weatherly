@@ -3,7 +3,7 @@ import InfoBox from "./InfoBox"
 import { useState } from "react"
 export default function WeatherApp(){
     let [weather,setWeather] = useState({
-         city:"Rajgarh",
+         city:"Rajasthan",
         feelsLike: 36.05,
         humidity: 49,
         maxTemp: 33.02,
